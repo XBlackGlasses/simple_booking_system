@@ -27,15 +27,15 @@ java 21
 
 # spring boot dependencies & application.properties
 
-```=
+```
 Spring Wed
 Spring Data JPA
 Lombok
 MySQL Driver
 jwt
-``` 
+```
 
-```properties =
+```properties
 spring.application.name=booking
 # service_booking_system_db is name of dataset
 spring.datasource.url=jdbc:mysql://{your_ip}:3306/service_booking_system_db?serverTimezone=Asia/Taipei&characterEncoding=utf-8
@@ -48,3 +48,5 @@ spring.jpa.hibernate.ddl-auto=update
 # show sql statement
 spring.jpa.show-sql=true
 ```
+
+細部內容參考setting.md

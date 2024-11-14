@@ -34,7 +34,7 @@ public class AuthenticationController {
     // test connection
     @GetMapping("/hello")
     public String hello(){
-        return "hello";
+        return "test api connection successfully";
     }
 
     @PostMapping("/client/sign-up")

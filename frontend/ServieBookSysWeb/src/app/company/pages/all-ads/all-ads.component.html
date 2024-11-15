@@ -1,0 +1,40 @@
+<div class="bg">
+
+    <div style="margin-top: 10px;" class="child" *ngFor="let ad of ads">
+
+        <div nz-row>
+            <!-- show image -->
+            <div nz-col nzSpan="8">
+                <img class="profile" [src]="updateImg(ad.returnedImg)" style="height: 130px; width: 200px; border-radius: 10px;"/>
+
+            </div>
+
+            <!-- show detials of the ad -->
+            <div nz-col nzSpan="16">
+
+                <h2 style="cursor: pointer; color: #108ee9;">
+                    {{ad.serviceName}}
+                </h2>
+                <hr>
+
+                <h5>
+                    Price : <b>{{ad.price}}</b>
+                </h5>
+
+                <h5>
+                    Description : <b>{{ad.description}}</b>
+                </h5>
+                
+
+                <hr>
+                <div style="float: right;">
+                    <!-- {{ad.id}} : ad 是前面*ngFor="let ad of ads" 迭代的廣告物件 -->
+                    <button nzSize="small" nz-button nzType="primary" routerLink="/company/update/{{ad.id}}">Update</button>
+                    <button (click)="deleteAd(ad.id)" style="margin-left: 10px;" nzSize="small" nz-button nzType="primary" nzDanger>Delete</button>
+                </div>
+    
+            </div>
+
+        </div>
+    </div>
+</div>

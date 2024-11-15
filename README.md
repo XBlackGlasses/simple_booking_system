@@ -25,6 +25,20 @@ java 21
 - View Bookings: See the list of bookings made by the client
 - Review Services: Provide feedback or reviews on services
 
+# 網頁預覽
+### 註冊 / 登入
+<img src=".\regist.png" alt="regist" style="zoom:75%;" />  <img src=".\login.png" alt="login" style="zoom:75%;" />
+
+### client： 遊覽服務、預約狀態、預約及評論
+<img src=".\user_dash.png" alt="user_dash" style="zoom:75%;" /> 
+<img src=".\book_status.png" alt="book_status" style="zoom:75%;" />
+<img src=".\view.png" alt="view" style="zoom:75%;" />
+
+### company：服務確認、刊登服務廣告、服務列表
+<img src=".\com_dash.png" alt="com_dash" style="zoom:75%;" />
+<img src=".\post_ad.png" alt="post_ad" style="zoom:75%;" />
+<img src=".\ads.png" alt="ads" style="zoom:75%;" />
+
 # spring boot dependencies & application.properties
 
 ```

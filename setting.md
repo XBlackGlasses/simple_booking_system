@@ -689,7 +689,7 @@ class 前加入 @SpringBootTest ：會在單元測試時啟動Spring容器，也
 
 @Transactional：如果測試時對資料庫增減data，實際上真的會保存在資料庫，透過@Transactional，在單元測試結束之後，SpringBoot會去rollback（回滾）這個單元測試裡面所有的資料庫操作。
 
-
+mysql中的transaction功能在於讓一個連續性的DB操作要嘛全部成功，不然就全失敗
 
 #### Mockito：
 

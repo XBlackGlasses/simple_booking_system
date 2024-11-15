@@ -1,0 +1,10 @@
+**/node_modules/
+**/.vscode
+**/dist
+**/.editorconfig
+**/.angular
+**/README.md
+**/.gitignore
+**/Dockerfile
+**/LICENSE
+**/.git

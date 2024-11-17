@@ -76,7 +76,6 @@ docker cp ./database\backup.sql mysql3307:var/lib/mysql/service_booking_system_d
 
 複製完成會顯示成功
 
-![image-20241111025358140](C:\Users\joseg\AppData\Roaming\Typora\typora-user-images\image-20241111025358140.png)
 
 
 
@@ -86,7 +85,6 @@ docker cp ./database\backup.sql mysql3307:var/lib/mysql/service_booking_system_d
 source <your_path>/<your_file_name>
 ```
 
-<img src="C:\Users\joseg\AppData\Roaming\Typora\typora-user-images\image-20241111025905255.png" alt="image-20241111025905255" style="zoom: 67%;" />
 
 這時就能用spring boot連線到這個mysql database了。
 
@@ -276,7 +274,7 @@ volumes:
   * 將appllication.properties 中的 mysql url改為下面那樣
 
     * ```
-      spring.datasource.url=jdbc:mysql://{MYSQL_HOST:localhost}:{MYSQL_PORT:3306}/service_booking_system_db?serverTimezone=Asia/Taipei&characterEncoding=utf-8
+      spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/service_booking_system_db?serverTimezone=Asia/Taipei&characterEncoding=utf-8
       ```
 
 雖然depends_on 已經有配置要依賴於db服務了，但無法確保他一定會等db都完整啟動了，才啟動app，所以在第一此使用docker-compose up 執行時，會看到db有啟動成功，但app仍顯示連線失敗的錯誤訊息。
@@ -473,7 +471,6 @@ networks:
   frontend_network:
     driver: bridge
 ```
-
 
 
 

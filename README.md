@@ -1,9 +1,9 @@
 # Environment
-spring boot3
-Mysql8.0.4
-Angular16
-NG-Zorro(Angular UI component library)
-java 21
+* spring boot3
+* Mysql8.0.4
+* Angular16
+* NG-Zorro(Angular UI component library)
+* java 21
 
 # Description
 嘗試前後端分離專案，設計預約服務系統

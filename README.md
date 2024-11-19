@@ -62,5 +62,3 @@ spring.jpa.hibernate.ddl-auto=update
 # show sql statement
 spring.jpa.show-sql=true
 ```
-
-細部內容參考setting.md

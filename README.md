@@ -25,20 +25,6 @@
 - View Bookings: See the list of bookings made by the client
 - Review Services: Provide feedback or reviews on services
 
-# 網頁預覽
-### 註冊 / 登入
-<img src=".\readmeImages\regist.png" alt="regist" style="zoom:30%;" />  <img src=".\readmeImages\login.png" alt="login" style="zoom:30%;" />
-
-### client： 遊覽服務、預約狀態、預約及評論
-<img src=".\readmeImages\user_dash.png" alt="user_dash" style="zoom:30%;" /> 
-<img src=".\readmeImages\book_status.png" alt="book_status" style="zoom:30%;" />
-<img src=".\readmeImages\view.png" alt="view" style="zoom:30%;" />
-
-### company：服務確認、刊登服務廣告、服務列表
-<img src=".\readmeImages\com_dash.png" alt="com_dash" style="zoom:30%;" />
-<img src=".\readmeImages\post_ad.png" alt="post_ad" style="zoom:30%;" />
-<img src=".\readmeImages\ads.png" alt="ads" style="zoom:30%;" />
-
 # spring boot dependencies & application.properties
 
 ```

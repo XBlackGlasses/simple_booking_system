@@ -7,7 +7,7 @@
 
 # Description
 嘗試前後端分離專案，設計預約服務系統
-功能針對client與company兩種user系分為下列幾種
+功能針對client與company兩種user分為下列幾種功能
 ### Company Features:
 - Create Account: Register as a company user
 - Login: Access the account with credentials
